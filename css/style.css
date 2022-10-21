@@ -72,3 +72,39 @@ p.Perfil{
 #MostrarSlider .Slider-DatosPersonales{
     background-color: bisque;
 }
+#Portafolio{
+    text-align: center;
+    padding: 30px;
+}
+#Portafolio .portafolio-nav{
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#Portafolio ul{
+    list-style: none;
+    float: right;
+}
+#Portafolio ul li{
+   list-style: none;
+   float: left;
+}
+#Portafolio ul li a{
+    padding: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+#Portafolio ul li a:hover{
+    background-color: RGB(160,172,172);
+}
+footer{
+    width: 100%;
+    height: 80px;
+
+    background-color: rgb(29, 24, 24);
+    
+}
+.texto{
+    color: blue;
+}
