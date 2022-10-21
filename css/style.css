@@ -98,6 +98,7 @@ p.Perfil{
 #Portafolio ul li a:hover{
     background-color: RGB(160,172,172);
 }
+<<<<<<< HEAD
 footer{
     width: 100%;
     height: 80px;
@@ -108,3 +109,5 @@ footer{
 .texto{
     color: blue;
 }
+=======
+>>>>>>> add94cfa2e7f07b983f926ea0ccab030c7479062
