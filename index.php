@@ -27,6 +27,7 @@
             <div class="Slider-DatosPersonales">
                 <h1>Rigoberto Pérez Ovando</h1>
                 <p class="Perfil">Docente de la Universidad Autónoma de Chiapas</p>
+                <a href="Usuarios/login.php" class="btn btn-primary">Suscribirme</a>
             </div>
         </div>
     </header>
