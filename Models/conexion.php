@@ -3,7 +3,7 @@
         private $hostBD='localhost';
         private $nombreBD='portafolio5j';
         private $usuarioBD='root';
-        private $password='';
+        private $passwordBD='';
         public function __construct(){
             try {
                 parent::__construct('mysql:host='.$this->hostBD.';bdname='
