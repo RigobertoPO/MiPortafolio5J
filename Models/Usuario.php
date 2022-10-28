@@ -4,7 +4,7 @@
             try {
                 include 'conexion.php';
                 $conectar=new Conexion();
-                $consulta=$conectar->prepare("INSERT INTO usuarios (Nombre,ApellidoPaterno,ApellidoMaterno,Correo,Password,Tipo)
+                $consulta=$conectar->prepare("INSERT INTO usuarios(Nombre,ApellidoPaterno,ApellidoMaterno,Correo,Password,Tipo)
                         VALUES(:nombre,:apellidoPaterno,:apellidoMaterno,:correo,:password,2)");
                         $consulta->bindParam(":nombre",$nombre,PDO::PARAM_STR);
                         $consulta->bindParam(":apellidoPaterno",$apellidoPaterno,PDO::PARAM_STR);
@@ -14,7 +14,8 @@
                 $consulta->execute();
                 return true;
             } catch (Exception $e) {
-                return false;
+                echo 'Excepción capturada: ',  $e->getMessage(), "\n";
+                //return false;
             }
         }
         public function AutentificarUsuario($correo,$password){
