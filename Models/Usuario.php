@@ -29,7 +29,7 @@
                 $consulta->execute();
                 $consulta->setFetchMode(PDO::FETCH_ASSOC);
                 return $consulta->fetchAll();         
-            } catch (Execute $e) {
+            } catch (Exception $e) {
                 return 0;
             }
         }
