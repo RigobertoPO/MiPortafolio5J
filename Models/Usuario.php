@@ -14,8 +14,8 @@
                 $consulta->execute();
                 return true;
             } catch (Exception $e) {
-                echo 'Excepción capturada: ',  $e->getMessage(), "\n";
-                //return false;
+                //echo 'Excepción capturada: ',  $e->getMessage(), "\n";
+                return false;
             }
         }
         public function AutentificarUsuario($correo,$password){

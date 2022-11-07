@@ -12,8 +12,7 @@ if($resultado){
     header("Location:login.php");
 }
 else{
-    echo $resultado;
-    
-    //header("Location: registro.php");
+    //echo $resultado; 
+    header("Location: registro.php");
 }
 ?>
