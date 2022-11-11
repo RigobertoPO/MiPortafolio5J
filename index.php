@@ -33,6 +33,15 @@
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="contacto.php">Contácto</a></li>
                     <li>
+                    <?php             
+                        if($tipoSesion==1){
+                            
+                            echo '<a href="proyectos.php">Proyectos</a>';
+                        }
+                                        
+                    ?>
+                    </li>
+                    <li>
                       <?php
                       if($usuarioSesion=='')
                       {

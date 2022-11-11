@@ -16,7 +16,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio - Blog</title>
+    <title>Mi portafolio - ¿Quién soy?</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
@@ -59,7 +59,7 @@
         
     </header>
     <article>
-        <h1>Blog</h1>
+        <h1>Proyectos</h1>
     </article>  
     <footer>
     <p class="texto">Licenciatura en Sistemas Computacionales</p>
