@@ -1,10 +1,11 @@
 <?php
     class Proyecto{
-        public function ObtenerProyectos(){
+        public function ObtenerProyectos($idUsuario){
             include 'conexion.php';
             $conectar=new Conexion();
-            $consulta="SELECT * FROM Proyectos";
+            $consulta="SELECT * FROM Proyectos WHERE IdUsuario=:idUsuario";
             $query=$conectar->prepare($consulta); //preparas la consulta
+            $query->bindParam(":idUsuario",$idUsuario,PDO::PARAM_STR);
             $query->execute(); //ejecutas
             $query->setFetchMode(PDO::FETCH_ASSOC);
             return $query->fetchAll();
